@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a focused product or methodology improvement
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Research need
+      description: What problem should this solve, and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: trust
+    attributes:
+      label: Evidence and trust implications
+      description: Identify source, provenance, licensing, neutrality, and confidence concerns.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome
+    validations:
+      required: true

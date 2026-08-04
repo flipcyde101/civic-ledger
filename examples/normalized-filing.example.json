@@ -1,0 +1,35 @@
+{
+  "member": {
+    "bioguideId": "EXAMPLE001",
+    "fullName": "Example Member",
+    "chamber": "House",
+    "party": "I",
+    "state": "XX",
+    "district": "00"
+  },
+  "filing": {
+    "source": "house",
+    "sourceDocumentId": "example-ptr-001",
+    "reportType": "PTR",
+    "filedAt": "2026-08-03",
+    "sourceUrl": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+    "documentSha256": "replace-with-real-sha256",
+    "parserVersion": "manual-normalizer-1",
+    "parserConfidence": 1
+  },
+  "transactions": [
+    {
+      "stableKey": "house:example-ptr-001:1",
+      "owner": "Self",
+      "assetName": "Example Corporation",
+      "ticker": "EXMPL",
+      "assetType": "Stock",
+      "action": "Purchase",
+      "transactionDate": "2026-07-20",
+      "amountLow": 1001,
+      "amountHigh": 15000,
+      "amountLabel": "$1,001–$15,000",
+      "tickerConfidence": 1
+    }
+  ]
+}
